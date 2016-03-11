@@ -2,6 +2,9 @@ package com.evpa.ocajexam.exercises.exerciseone;
 
 import java.util.Properties;
 
+/**
+	Added some comments
+*/
 public class PropertiesManager {
 
 	public static void main(String[] args) {
