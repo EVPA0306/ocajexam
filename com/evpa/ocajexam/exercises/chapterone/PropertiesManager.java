@@ -1,4 +1,4 @@
-package com.evpa.ocajexam.exercises.exerciseone;
+package com.evpa.ocajexam.exercises.chapterone;
 
 import java.util.Properties;
 

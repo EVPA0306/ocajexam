@@ -1,0 +1,3 @@
+Feb 29, 2016 4:43:32 PM com.evpa.ocajexam.exercises.exerciseone.ExerciseOne main
+INFO: 
+This is a logged information message
