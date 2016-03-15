@@ -1,5 +1,7 @@
 SELF-TEST
 
+Chapter#1
+
 1. 	A, B	- 100%
 2. 	D		- 100%
 3. 	B		- 100%
@@ -15,3 +17,26 @@ SELF-TEST
 13.	A,C		- 100%
 14. A,C		- 100%
 15. A		- 100%
+
+
+Chapter#2
+
+JAVA KEYWORDS
+Conditional statements: 		else, if, case, switch, default
+Iteration statements: 			do, for, while
+Transfer control statemenents: 	break, continue, return,
+Exception control: 				catch, finally, try, throw
+
+1.	D 		- 100%
+2.	B 		- 100%
+3.	A,C 	- 100%
+4.	D 		- 0%
+5.	A,B,C,D - 75%
+6.	F       - 100%
+7.	A		- 100%
+8. 	A		- 100%
+9.	C 		- 100%
+10.	A 		- 25%
+11.	B  		- 100%
+12.	C 		- 100%
+
