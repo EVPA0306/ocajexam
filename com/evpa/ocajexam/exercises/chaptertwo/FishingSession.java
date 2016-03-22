@@ -48,6 +48,11 @@ public class FishingSession {
 			}
 			isValid = false;
 			System.out.println("test3");
+				if (true) ;
+				if (true) {}
+				if (true) {;}
+				if (true) {;;}
+				if (true) ;{};
 		}
 	}
 }
