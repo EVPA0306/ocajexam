@@ -1,0 +1,8 @@
+Object history: SystemStatus object created at 1460507902181
+Object log event: -1
+Object history: NetworkConnection object created at 1460507902182
+Object log event: Initialized
+Object history: SystemStatus object created at 1460507902181
+Object log event: 1
+Object history: NetworkConnection object created at 1460507902182
+Object log event: Connected at 1460507902182
