@@ -1,0 +1,14 @@
+<project name="ocajexam" basedir="." default="main">
+
+<property name="src.dir" value="${basedir}" />	
+	
+	<target name="compile">
+		<javac srcdir="${src.dir}" destdir="${basedir}/classes/" includeantruntime="true" />
+	</target>
+
+	<target name="run" depends="compile">
+	</target>
+
+	<target name="main" depends="compile" />
+
+</project>
