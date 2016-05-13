@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.evpa.ocajexam.exercises.appendixa</OriginalElement>
+  <nodes>
+    <node x="13.0" y="207.0">com.evpa.ocajexam.exercises.appendixa.Wheel</node>
+    <node x="152.0" y="75.0">com.evpa.ocajexam.exercises.appendixa.Trailer</node>
+    <node x="-280.0" y="21.0">com.evpa.ocajexam.exercises.appendixa.TrafficSimulator</node>
+    <node x="-181.0" y="206.0">com.evpa.ocajexam.exercises.appendixa.Car</node>
+    <node x="-1.0" y="23.0">com.evpa.ocajexam.exercises.appendixa.TrafficLight</node>
+    <node x="116.0" y="150.0">com.evpa.ocajexam.exercises.appendixa.Truck</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.evpa.ocajexam.exercises.appendixa.Car" target="com.evpa.ocajexam.exercises.appendixa.TrafficLight">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.evpa.ocajexam.exercises.appendixa.TrafficSimulator" target="com.evpa.ocajexam.exercises.appendixa.TrafficLight">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.evpa.ocajexam.exercises.appendixa.TrafficSimulator" target="com.evpa.ocajexam.exercises.appendixa.Car">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.evpa.ocajexam.exercises.appendixa.Truck" target="com.evpa.ocajexam.exercises.appendixa.Trailer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.evpa.ocajexam.exercises.appendixa.Car" target="com.evpa.ocajexam.exercises.appendixa.Wheel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="94.5" y="135.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

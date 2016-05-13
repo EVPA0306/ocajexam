@@ -1,14 +1,20 @@
 package com.evpa.learnj8;
 
+import java.util.function.*;
+
 public class MainClass { 
     public static void main(String args[]) { 
-        int k = 2; 
-        int m = 10; 
-        int s =  1 >> k++ + ++m - --k - m-- << 1; 
-        System.out.println("s = " + s); //1
-        System.out.println("k = " + k); //2 
-        System.out.println("m = " + m); //10
-        System.out.println("a = " + (1 >> 2	));
-        System.out.println("a = " + (2 << 1	));
+       Runnable ru = () -> System.out.println("Hi");
+       /* Runnable ru = new Runnable() {
+            public void run() {
+                System.out.println("Hi five!");   
+            }
+        };*/
+       //Thread th = new Thread(ru);
+       //th.start();
+        ru.run();
+        Consumer<Object> print = System.out::println;
+        print.accept("Hi six!");
+        int iArray[] = new int[]{1,2,3,4,5};
     } 
 }
