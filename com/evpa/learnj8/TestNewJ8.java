@@ -6,7 +6,9 @@ import java.util.*;
 import java.util.stream.*;
 
 public class TestNewJ8 {
+
 	public static void main(String[] args) {
+
 		new Thread(() -> System.out.println("Hi")).start();
 		Runnable r = () -> System.out.println("Hello");
 		new Thread(r).start();
@@ -34,7 +36,8 @@ public class TestNewJ8 {
 		Comparator<Invoice> byAmount = Comparator.comparing(Invoice::getAmount);*/
 
 		
-		List<Invoice> ids = invoices.stream().filter(inv -> inv.getCustomer() == "ORACLE").collect(Collectors.toList());
+		List<Invoice> ids = invoices.stream().filter(inv -> inv.getCustomer() == "ORACLE")
+				.collect(Collectors.toList());
 		}
 
 	/*public void getHiddenFiles() {
