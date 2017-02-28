@@ -21,11 +21,11 @@ public class WorkWithInvoices {
     public static void main(String...args) {
 
         List<Invoice> allInvoices = new ArrayList<>();
-        allInvoices.add(new Invoice(1,"Oracle",5000.00));
-        allInvoices.add(new Invoice(2,"IBM",67000.00));
-        allInvoices.add(new Invoice(3,"Netcracker",78000.40));
-        allInvoices.add(new Invoice(4,"Level3",7123.50));
-        allInvoices.add(new Invoice(5,"ID Software",9000.40));
+        allInvoices.add(new Invoice(1,"Oracle",5000.00,"Training"));
+        allInvoices.add(new Invoice(2,"IBM",67000.00,"Training"));
+        allInvoices.add(new Invoice(3,"Netcracker",78000.40,"Training"));
+        allInvoices.add(new Invoice(4,"Level3",7123.50,"Training"));
+        allInvoices.add(new Invoice(5,"ID Software",9000.40,"Training"));
 
         WorkWithInvoices workWithInvoces = new WorkWithInvoices();
         List<Invoice> oracleInvoices = workWithInvoces.findInvoices(allInvoices, new InvoicePredicate() {

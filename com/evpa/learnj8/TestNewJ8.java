@@ -13,7 +13,7 @@ public class TestNewJ8 {
 		Runnable r = () -> System.out.println("Hello");
 		new Thread(r).start();
 		FileFilter isClass = (File f) -> f.getName().endsWith(".class");
-		Ship ship = (String name) -> new String("Aurora");
+		Ship ship = () -> new String("Aurora");
 		//File[] hiddenFiles = mainDirectory.listFiles(f -> f.isHidden());
 		Function<String, Integer> conventer = Integer::parseInt;
 		Integer number = conventer.apply("10");
@@ -36,7 +36,8 @@ public class TestNewJ8 {
 		Comparator<Invoice> byAmount = Comparator.comparing(Invoice::getAmount);*/
 
 		
-		List<Invoice> ids = invoices.stream().filter(inv -> inv.getCustomer() == "ORACLE")
+		List<Invoice> ids = invoices.stream()
+				.filter(inv -> inv.getCustomer() == "ORACLE")
 				.collect(Collectors.toList());
 		}
 
@@ -44,4 +45,6 @@ public class TestNewJ8 {
 
 		File[] hiddenFiles = mainDirectory.listFiles(File::isHidden);
 	}*/
+
+
 }

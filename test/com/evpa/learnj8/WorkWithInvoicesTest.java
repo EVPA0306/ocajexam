@@ -25,9 +25,9 @@ public class WorkWithInvoicesTest {
         WorkWithInvoices workWithInvoices = new WorkWithInvoices();
 
         List<Invoice> allInvoices = new ArrayList<>();
-        allInvoices.add(new Invoice(1,"Oracle",5000.00));
-        allInvoices.add(new Invoice(2,"IBM",67000.00));
-        allInvoices.add(new Invoice(3,"Netcracker",78000.40));
+        allInvoices.add(new Invoice(1,"Oracle",5000.00,"Training"));
+        allInvoices.add(new Invoice(2,"IBM",67000.00,"Training"));
+        allInvoices.add(new Invoice(3,"Netcracker",78000.40,"Training"));
 
         listOfInvoices = workWithInvoices.findInvoices(allInvoices, new InvoicePredicate() {
             @Override
